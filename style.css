@@ -1,0 +1,431 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cal+Sans&family=Orbitron:wght@400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+  .orbitron{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+  .cal-sans-regular {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+body {
+   background-image: url(https://3e2dceb53e.cbaul-cdnwnd.com/0442012f88776c85df60b90bc9a99e72/200000038-896be896c0/Do%20campo%20a%20%281%29.png?ph=3e2dceb53e);
+   background-repeat: repeat;
+   background-size: 200% 100%;
+   background-attachment: fixed;
+   width: auto;
+   height: auto;
+   object-fit: fill;
+   animation: moverfundo 600s ease-in-out forwards;
+
+
+}
+
+
+/*mover imagem*/
+  
+@keyframes moverfundo {
+    0% {
+        background-position: 9000% 9000;
+    }
+    100% {
+        background-position: 9000% 0;
+    }
+}
+
+
+header{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px; 
+    text-align: center;
+    animation: moverTitulo 1s ease-out forwards ;
+
+}
+
+
+
+nav ul{
+    list-style: none;
+    padding: 10px;
+}
+
+
+nav ul li{
+   display: inline;
+   margin: 0 15px;
+}
+
+nav ul li a {
+    color: #000000;
+    background-color: #ffffff;
+    margin: 20px auto;
+    text-decoration: underline;
+}
+
+
+
+
+
+@keyframes moverTitulo{
+    0%{
+        opacity: 0;
+        padding: 10%;
+    }
+
+
+
+
+
+
+}
+
+.timelineAgrinho {
+    margin: 0 auto ;
+    max-width: 750px;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 2fr 5px 2fr;
+    font-family: 'Gill Sans', 'Gill Sans MT', Gotham, 'Trebuchet MS', sans-serif;
+    color :#000000 ;
+    position: relative;
+
+}
+
+.componentes {
+    margin: 0 20px 20px 20px;
+}
+
+/* tópico 1 */
+.componentes--fundo1{
+    font-family: "Cal Sans", sans-serif;
+  position: relative; 
+  padding: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    background-image: url('anos20.jpg'); 
+    background-size:650px ; 
+    background-position: top 80% left ; 
+    background-repeat: no-repeat;
+    animation: tópico1 1s ease-out forwards;
+}
+
+/* tópico 2 */
+.componentes--fundo2{
+    font-family: "Cal Sans", sans-serif;
+  position: relative; 
+  padding: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    background-image: url('agro_anos50.jpg'); 
+    background-size:550px ; 
+    background-position: bottom 20% left 30% ; 
+    background-repeat: no-repeat;
+    animation: tópico2 1.25s ease-out forwards;
+}
+
+/* tópico 3 */
+.componentes--fundo3{
+    font-family: "Cal Sans", sans-serif;
+  position: relative; 
+  padding: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    background-image: url('anos70.jpg'); 
+    background-size:650px ; 
+    background-position: left 40% top 80%  ; 
+    background-repeat: no-repeat;
+    animation: tópico3 1.5s ease-out forwards;
+}
+
+/* tópico 4 */
+.componentes--fundo4{
+    font-family: "Cal Sans", sans-serif;
+  position: relative; 
+  padding: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    background-image: url('anos90.avif'); 
+    background-size:850px ; 
+    background-position: left 0% top 0%  ; 
+    background-repeat: no-repeat;
+    animation: tópico4 1.75s ease-out forwards;
+}
+
+/* tópico 5 */
+.componentes--fundo5{
+    font-family: "Cal Sans", sans-serif;
+  position: relative; 
+  padding: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    background-image: url('PAA2009.jpg'); 
+    background-size:750px ; 
+    background-position: left 50% top 30%  ; 
+    background-repeat: no-repeat;
+    animation: tópico5 2s ease-out forwards;
+}
+
+/* tópico 6 */
+.componentes--fundo6{
+    font-family: "Cal Sans", sans-serif;
+  position: relative; 
+  padding: 1.5em;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+
+    background-image: url('colheita2015.jpg'); 
+    background-size:850px ; 
+    background-position: left 0% top 100%  ; 
+    background-repeat: no-repeat;
+    animation: tópico6 2.25s ease-out forwards;
+}
+
+/* tópico final */
+.componentes--fundo{
+    font-family: "Cal Sans", sans-serif;
+    padding: 1.5em;
+      background: rgba(255, 255, 255, 0.2);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+      border-radius: 10px;
+  
+      background-image: url('atual.jpg'); 
+      background-size:1050px ; 
+      background-position: left 50% top 90%  ; 
+      background-repeat: no-repeat;
+      animation: tópico7 2.5s ease-out forwards;
+
+  }
+
+
+@keyframes tópico1{
+    0%{
+        opacity: 0;
+        padding: 6%;
+
+    }
+}
+
+@keyframes tópico2{
+    0%{
+        opacity: 0;
+        padding: 6%;
+
+    }
+}
+
+@keyframes tópico3{
+    0%{
+        opacity: 0;
+        padding: 6%;
+
+    }
+}
+
+@keyframes tópico4{
+    0%{
+        opacity: 0;
+        padding: 6%;
+
+    }
+}
+
+@keyframes tópico5{
+    0%{
+        opacity: 0;
+        padding: 6%;
+
+    }
+}
+
+@keyframes tópico6{
+    0%{
+        opacity: 0;
+        padding: 6%;
+
+    }
+}
+@keyframes tópico7{
+    0%{
+        opacity: 0;
+        padding: 6%;
+
+    }
+}
+
+
+
+
+/* alinhamento se a data for à direita ds tópicos*/
+.timeline__data--direita{
+      text-align: right;
+      font-family: "Orbitron", sans-serif;
+}
+
+.componentes--final{
+    margin-bottom: 0;
+}
+
+.timeline__data{
+    font-family: "Orbitron", sans-serif;
+}
+
+.ponto--penultimo{
+    top:auto;
+
+
+}
+
+.ponto--final{
+    top: initial;
+
+}
+
+
+.componentes--fundo--direito{
+    padding: 1.5em;
+    background: rgba(255,255,255, 0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+
+
+.timeline__meio--tela{
+    
+    position:initial;
+    background: #ffffff;
+}
+
+/* marcação do tópico*/
+.ponto {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 15px;
+    height: 15px;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    z-index: 10;
+}
+
+
+
+
+.paragrafo{
+    line-height: 1.5;
+}
+
+.finalizado{
+    width: 520px;
+    text-align: center;
+        font-family: "Orbitron", sans-serif;
+        font-size: 16px;
+        color: #ffffff;
+    padding: 1em;
+    background-color: #0c0f6e;
+    display: block;
+margin:20px auto ;
+border-radius: 10px;
+transform: translateY(-25px);
+border: none;
+}
+
+
+/* final da página */
+footer{
+    background-color:antiquewhite;
+    opacity: 80%;
+    padding: 23px;
+    text-align: center;
+    font-family: "Cal Sans", sans-serif;
+}
+.agro{
+    font-size: 20px;
+}
+.redes{
+    color:rgb(253, 118, 29) ;
+
+}
+
+.github{
+    color: #000000
+    
+}
+
+
+  /* Responsividade */
+  @media (max-width: 600px) {
+    body {
+      background-size: cover;
+      animation: none; 
+    }
+
+    header {
+      font-size: 24px; 
+    }
+
+    nav ul li {
+      display: block; 
+      margin: 10px 0; 
+    }
+
+    .timelineAgrinho {
+      grid-template-columns: 1fr; 
+      padding: 15px;
+    }
+
+    .componentes {
+      margin: 10px 0;
+    }
+
+    .componentes--fundo1,
+    .componentes--fundo2,
+    .componentes--fundo3,
+    .componentes--fundo4,
+    .componentes--fundo5,
+    .componentes--fundo6,
+    .componentes--fundo {
+      background-size: cover; 
+      padding: 2em;
+    }
+
+    .finalizado {
+      width: 60%; 
+      font-size: 14px;
+    }
+
+    footer {
+      padding: 15px; 
+    }
+  }
