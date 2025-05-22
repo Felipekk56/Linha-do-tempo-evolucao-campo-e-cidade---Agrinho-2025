@@ -29,7 +29,7 @@ utilizei a imagem "do campo a (1)" para o fundo, deixando-o em movimento, com a 
 7 tópicos bem resumidos, com mais de 100 anos de história desde o início da interligação da zona rural e urbana.
 
 ### Final da página:
-* Um botão com redirecionamento para um vídeo, que é um exemplo da utilização de produtis do campo na cidade.
+* Um botão com redirecionamento para um vídeo, que é um exemplo da utilização de produtos do campo na cidade.
 * Link para a página do Instagram, e do Github.
 
 #### Licença
