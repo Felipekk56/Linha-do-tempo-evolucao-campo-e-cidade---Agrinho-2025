@@ -385,7 +385,7 @@ footer{
 
 
   /* Responsividade */
-  @media (max-width: 800px) {
+  @media (max-width: 1200px) {
     body {
       background-size: cover;
       animation: none; 
